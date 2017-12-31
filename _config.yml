@@ -31,6 +31,12 @@ footer_image_source: https://s3.amazonaws.com/kinlane-productions/footer/empower
 footer_image_width: 60
 
 collections:
-  design:
+  lifecycle:
     output: true
-    permalink: /design/:path/
+    permalink: /lifecycle/:path/
+  definitions:
+    output: true
+    permalink: /definitions/:path/
+  governance:
+    output: true
+    permalink: /governance/:path/

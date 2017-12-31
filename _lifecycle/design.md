@@ -5,16 +5,18 @@ class:
 rel:
   - /rels/stop  
 properties:
-  name: API Design
-  description: This is the area of API design on this API transit system. Where you can learn all about, and be able to apply common web API design concepts.             
+  name: Title
+  description: Description    
+  image: Image
+  links:
+    - title: Link
+      url: https://www.example.com
+      description: Description
 links:
   - rel:
       - self
-    href: /lifecycle/definitions/   
+    href: /design/requests/
   - rel:
-      - prev
-    href: /lifecycle/definitions/      
-  - rel:
-      - next
-    href: /lifecycle/mock/             
+      - area
+    href: /design/      
 ---

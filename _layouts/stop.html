@@ -3,7 +3,13 @@ layout: default
 ---
 <h2>{{ page.properties.name }}</h2>
 <p><img src="{{ page.properties.image }}" width="20%" align="right" style="padding: 10px;" /></p>
-<p>{{ page.properties.description }}</p>
+<p>{{ page.properties.header }}</p>
+<ul>
+{% for link in page.properties.links %}
+  <li><a href="{{ link.url }}" target="_blank"><strong>{{ link.title }}</strong></a> - {{ link.description }}</li>
+{% endfor %}
+</ul>
+<p>{{ page.properties.footer }}</p>
 
 <!-- Building the links. Wish they were rel objects -->
 {% for link in page.links %}

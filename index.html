@@ -34,10 +34,11 @@ title: API Life Cycle Basics
 
 </div>
 <script type="text/javascript">
-  //$("#sidebar").trigger("click");
-  $( "#sidebar" ).click();
-	var editor = [];
-    $(".subway-map").subwayMap({ });
+    $( ".toggle" ).click(function() {
+      var editor = [];
+        $(".subway-map").subwayMap({ });
+    });
+
 </script>
 <p>This project runs using Jekyll, which is completely hosting using Github Pages. You can access the Github repository for the project, and find the lifecycle details stored within the underscore lifecycle collection. I am just using Jekyll as a hypermedia client to walk through each stop along the life cycle, with the subway map as a visual aid.</p>
 <p>I have expanding versions of this life cycle with thousands of stops, spanning over a hundreds lines, providing a wealth of detail that can be applied to the API life cycle, depending on the goal of an organization. If you are interested in producing a subway map for your API operations, or would like an API governance strategy laid out in this way, let me know.

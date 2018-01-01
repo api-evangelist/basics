@@ -270,8 +270,14 @@
 
       						}
 
-                  event.preventDefault();
-                  event.stopPropagation();
+      					// Prevent vertical scrolling past the top or bottom.
+      						if (($this.scrollTop() < 0 && diffY < 0)
+      						|| (ts > (th - 2) && ts < (th + 2) && diffY > 0)) {
+
+      							event.preventDefault();
+      							event.stopPropagation();
+
+      						}
 
       				});
 
@@ -317,6 +323,10 @@
       							$this._hide(event);
 
       					});
+
+          // override
+          event.preventDefault();
+          event.stopPropagation();
 
       		return $this;
 

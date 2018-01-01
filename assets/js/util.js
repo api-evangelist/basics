@@ -49,7 +49,7 @@
 			if (this.length > 1) {
 
 				for (var i=0; i < this.length; i++)
-					$(this[i]).panel(userConfig);
+					//$(this[i]).panel(userConfig);
 
 				return $this;
 

@@ -37,8 +37,8 @@ links:
     href: /design/requests/
   - rel:
       - previous
-    href: /mock/     
+    href: /lifecycle/mock/     
   - rel:
       - next
-    href: /depoyment/          
+    href: /lifecycle/deployment/          
 ---

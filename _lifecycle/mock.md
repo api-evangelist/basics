@@ -31,8 +31,8 @@ links:
     href: /design/requests/
   - rel:
       - previous
-    href: /design/    
+    href: /lifecycle/design/     
   - rel:
       - next
-    href: /database/        
+    href: /lifecycle/database/         
 ---

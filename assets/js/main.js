@@ -222,9 +222,7 @@
 
 									if (y <= 0)
 										$sidebar_inner
-											.data('locked', 0)
-											.css('position', '')
-											.css('top', '');
+											.css('top', -1 * x);
 									else
 										$sidebar_inner
 											.css('top', -1 * x);

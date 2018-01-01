@@ -1,10 +1,39 @@
 ---
 layout: line
-title: Design - Requests
+title: API Life Cycle Basics
 class: line
 ---
-<h1>Jekyll as a Hypermedia Client</h1>
-<p>This is a prototype for my subway map API training project, providing a framework for introducing different concepts along the API life cycle.</p>
-<p>My original subway map API for this project was a hypermedia API (Siren), and this next version is a static (Jekyll) implemention of the same model, but using Jekyll hosted on Github as the client.</p>
-<p>This is all a work in progress, and there is no visual aspects of this implementation yet, but you can find the functionality for one of <a href="http://jekyll.hypermedia.client.apievangelist.com/design/area/">the API areas (design) here/a>, with <a href="https://github.com/api-evangelist-tools/jekyll-hypermedia-client/tree/master/_design">the Siren collection on Github</a>, and <a href="https://github.com/api-evangelist-tools/jekyll-hypermedia-client/tree/master/_layouts">the templates that act as the client</a>.</p>
-<p>If you have <a href="https://github.com/api-evangelist-tools/jekyll-hypermedia-client/issues">questions you can leave thoughts on Github issues for the project</a>.</p>
+
+<h1>API Lifecycle Basics</h1>
+<div id="legend" style="display: none;"></div>
+<div id="subway-map" class="subway-map" data-columns="20" data-rows="75" data-cellSize="40" data-legendId="legend" data-textClass="text" data-gridNumbers="true" data-grid="false" data-lineWidth="12">
+
+    <ul id="r-1" data-color="#27AE60" data-label="API Lifecycle">
+        <li id="r-1-s-1" data-coords="5,1" data-marker="interchange" data-labelPos="E"><a href="/" title="Definitions">Definitions</a></li>
+        <li id="r-1-s-2" data-coords="5,2" data-labelPos="W"><a href="" title="Design">Design</a></li>
+        <li id="r-1-s-2" data-coords="5,3" data-labelPos="E"><a href="" title="Mock">Mock</a></li>
+        <li id="r-1-s-2" data-coords="5,4" data-labelPos="W"><a href="" title="Database">Database</a></li>
+        <li id="r-1-s-2" data-coords="5,5" data-labelPos="E"><a href="" title="Deployment">Deployment</a></li>
+        <li id="r-1-s-2" data-coords="5,6" data-labelPos="W"><a href="" title="Gateway">Gateway</a></li>
+        <li id="r-1-s-2" data-coords="5,7" data-labelPos="E"><a href="" title="Management">Manage</a></li>
+        <li id="r-1-s-2" data-coords="5,8" data-labelPos="W"><a href="" title="Logging">Logging</a></li>
+        <li id="r-1-s-2" data-coords="5,9" data-labelPos="E"><a href="" title="DNS">DNS</a></li>
+        <li id="r-1-s-2" data-coords="5,10" data-labelPos="W"><a href="" title="Portal">Portal</a></li>
+        <li id="r-1-s-2" data-coords="5,11" data-labelPos="E"><a href="" title="Documentation">Documentation</a></li>
+        <li id="r-1-s-2" data-coords="5,12" data-labelPos="W"><a href="" title="Clients">Clients</a></li>
+        <li id="r-1-s-2" data-coords="5,13" data-labelPos="E"><a href="" title="SDK">SDK</a></li>
+        <li id="r-1-s-2" data-coords="5,14" data-labelPos="W"><a href="" title="CLI">CLI</a></li>
+        <li id="r-1-s-2" data-coords="5,15" data-labelPos="E"><a href="" title="Testing">Testing</a></li>
+        <li id="r-1-s-2" data-coords="5,16" data-labelPos="W"><a href="" title="Security">Security</a></li>
+        <li id="r-1-s-2" data-coords="5,17" data-labelPos="E"><a href="" title="Communication">Communication</a></li>
+        <li id="r-1-s-2" data-coords="5,18" data-labelPos="W"><a href="" title="Support">Support</a></li>
+        <li id="r-1-s-2" data-coords="5,19" data-labelPos="E"><a href="" title="Training">Training</a></li>
+        <li id="r-1-s-2" data-coords="5,20" data-marker="interchange"><a href="" title="Deployment">Deprecation</a></li>
+    </ul>
+
+</div>
+
+<script type="text/javascript">
+	var editor = [];
+    $(".subway-map").subwayMap({ });
+</script>

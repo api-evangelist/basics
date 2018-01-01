@@ -297,19 +297,19 @@
 
       					var $this = $(this);
 
-      					//$this.on('click', function(event) {
+      					$this.on('click', function(event) {
 
       						// Prevent default.
       							event.preventDefault();
 
       						// Toggle.
-      							$menu_openers.not($this).removeClass('inactive');
-      							$this.toggleClass('inactive');
+      							$menu_openers.not($this).removeClass('active');
+      							$this.toggleClass('active');
 
       						// Trigger resize (sidebar lock).
       							$window.triggerHandler('resize.sidebar-lock');
 
-      					//});
+      					});
 
       				});
 

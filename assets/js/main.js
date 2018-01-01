@@ -232,8 +232,6 @@
 
 									if (y > 0)
 										$sidebar_inner
-											.data('locked', 1)
-											.css('position', 'fixed')
 											.css('top', -1 * x);
 
 								}

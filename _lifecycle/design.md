@@ -36,7 +36,7 @@ links:
       - self
     href: /design/requests/
   - rel:
-      - prev
+      - previous
     href: /lifecycle/definitions/      
   - rel:
       - next

@@ -260,18 +260,16 @@
       											.css('top', '');
       									else
       										$sidebar_inner
-                            .data('locked', 0)
-                            .css('position', '')
-                            .css('top', '');
+      											.css('top', -1 * x);
 
       								}
       								else {
 
       									if (y > 0)
       										$sidebar_inner
-                            .data('locked', 0)
-                            .css('position', '')
-                            .css('top', '');
+      											.data('locked', 1)
+      											.css('position', 'fixed')
+      											.css('top', -1 * x);
 
       								}
 
@@ -299,19 +297,19 @@
 
       					var $this = $(this);
 
-      					$this.on('click', function(event) {
+      					//$this.on('click', function(event) {
 
       						// Prevent default.
       							event.preventDefault();
 
       						// Toggle.
-      							$menu_openers.not($this).removeClass('active');
-      							$this.toggleClass('active');
+      							$menu_openers.not($this).removeClass('inactive');
+      							$this.toggleClass('inactive');
 
       						// Trigger resize (sidebar lock).
       							$window.triggerHandler('resize.sidebar-lock');
 
-      					});
+      					//});
 
       				});
 

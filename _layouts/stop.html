@@ -19,30 +19,32 @@ layout: default
     <td width="40%" style="background-color#FFF;"></td>
   </tr>
 </table>
-<p style="font-size: 24px;" align="center">{{ page.properties.name }}</p>
-<p><img src="{{ page.properties.image }}" width="20%" align="right" style="padding: 10px;" /></p>
-<p>{{ page.properties.header }}</p>
-<ul>
-{% for link in page.properties.links %}
-  <li><a href="{{ link.url }}" target="_blank"><strong>{{ link.title }}</strong></a> - {{ link.description }}</li>
-{% endfor %}
-</ul>
-<p>{{ page.properties.footer }}</p>
+<div style="height: 100%; width: 100%;">
+  <p style="font-size: 24px;" align="center">{{ page.properties.name }}</p>
+  <p><img src="{{ page.properties.image }}" width="20%" align="right" style="padding: 10px;" /></p>
+  <p>{{ page.properties.header }}</p>
+  <ul>
+  {% for link in page.properties.links %}
+    <li><a href="{{ link.url }}" target="_blank"><strong>{{ link.title }}</strong></a> - {{ link.description }}</li>
+  {% endfor %}
+  </ul>
+  <p>{{ page.properties.footer }}</p>
 
-<!-- Building the links. Wish they were rel objects -->
-{% for link in page.links %}
-  {% if link.rel contains 'next' %}
-    {% assign next = link.href %}
-  {% endif %}
-  {% if link.rel contains 'previous' %}
-    {% assign previous = link.href %}
-  {% endif %}
-{% endfor %}
+  <!-- Building the links. Wish they were rel objects -->
+  {% for link in page.links %}
+    {% if link.rel contains 'next' %}
+      {% assign next = link.href %}
+    {% endif %}
+    {% if link.rel contains 'previous' %}
+      {% assign previous = link.href %}
+    {% endif %}
+  {% endfor %}
 
-<table width="100%">
-  <tr>
-    <td align="left" width="25%">{% if previous != empty %}<a href="{{ previous }}"><< Previous</a>{% endif %}</td>
-    <td align="right" width="25%">{% if next != empty %}<a href="{{ next }}">Next >></a>{% endif %}</td>
-  </tr>
-</table>
-<br /><br />
+  <table width="100%">
+    <tr>
+      <td align="left" width="25%">{% if previous != empty %}<a href="{{ previous }}"><< Previous</a>{% endif %}</td>
+      <td align="right" width="25%">{% if next != empty %}<a href="{{ next }}">Next >></a>{% endif %}</td>
+    </tr>
+  </table>
+  <br /><br />
+</div>

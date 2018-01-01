@@ -234,17 +234,6 @@
       								if (skel.vars.IEVersion < 10)
       									return;
 
-      							// <=large? Bail.
-      								if (skel.breakpoint('large').active) {
-
-      									$sidebar_inner
-      										.data('locked', 0)
-      										.css('position', '')
-      										.css('top', '');
-
-      									return;
-
-      								}
 
       							// Calculate positions.
       								x = Math.max(sh - wh, 0);

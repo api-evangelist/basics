@@ -327,6 +327,7 @@
           // override
           event.preventDefault();
           event.stopPropagation();
+          config.target.toggleClass(config.visibleClass);
 
       		return $this;
 

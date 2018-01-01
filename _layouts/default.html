@@ -234,6 +234,17 @@
       								if (skel.vars.IEVersion < 10)
       									return;
 
+      							// <=large? Bail.
+      								if (skel.breakpoint('large').active) {
+
+      									$sidebar_inner
+      										.data('locked', 0)
+      										.css('position', '')
+      										.css('top', '');
+
+      									return;
+
+      								}
 
       							// Calculate positions.
       								x = Math.max(sh - wh, 0);
@@ -264,6 +275,13 @@
 
       						})
       						.on('resize.sidebar-lock', function() {
+
+      							// Calculate heights.
+      								wh = $window.height();
+      								sh = $sidebar_inner.outerHeight() + 30;
+
+      							// Trigger scroll.
+      								$window.trigger('scroll.sidebar-lock');
 
       						})
       						.trigger('resize.sidebar-lock');

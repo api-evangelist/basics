@@ -25,6 +25,7 @@ properties:
     - title: Multi-Format
       url:
       description: Being able to speak XML, JSON, and YAML fluently and seamlessly across groups.
+  color: 27AE60
 links:
   - rel:
       - self

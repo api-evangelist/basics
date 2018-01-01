@@ -31,6 +31,7 @@ properties:
     - title: GRPC API Design
       url: https://grpc.io/docs/guides/
       description: A guide to designing gRPC APIs that leverage HTTP/2 and Protocol Buffers.
+  color: 27AE60    
 links:
   - rel:
       - self

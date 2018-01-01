@@ -5,18 +5,23 @@ class:
 rel:
   - /rels/stop  
 properties:
-  name: Title
-  description: Description    
-  image: Image
+  name:
+  header:
+  footer:      
+  image:
   links:
-    - title: Link
-      url: https://www.example.com
-      description: Description
+    - title:
+      url:
+      description:
+  color: 27AE60    
 links:
   - rel:
       - self
-    href: /design/requests/
+    href: /lifecycle/requests/
   - rel:
-      - area
-    href: /design/      
+      - previous
+    href: /lifecycle/whatever/   
+  - rel:
+      - next
+    href: /lifecycle/whatever/            
 ---

@@ -25,6 +25,7 @@ properties:
     - title: Building Microservices Using an API Gateway
       url: https://www.nginx.com/blog/building-microservices-using-an-api-gateway/
       description: Designing, building, and deploying microservices introduced the Microservices Architecture pattern.
+  color: 27AE60    
 links:
   - rel:
       - self

@@ -25,6 +25,7 @@ properties:
     - title: Postman Mock Server
       url: https://www.getpostman.com/docs/postman/mock_servers/setting_up_mock
       description: You can setup mock servers from within the Postman environment.                     
+  color: 27AE60      
 links:
   - rel:
       - self

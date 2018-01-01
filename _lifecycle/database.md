@@ -31,6 +31,7 @@ properties:
     - title: Google Cloud Spanner
       url: https://cloud.google.com/spanner/
       description: Cloud Spanner is the first and only relational database service that is both strongly consistent and horizontally scalable.              
+  color: 27AE60
 links:
   - rel:
       - self

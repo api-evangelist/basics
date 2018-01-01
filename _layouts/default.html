@@ -127,8 +127,8 @@
       			}, userConfig);
 
       			// Expand "target" if it's not a jQuery object already.
-      				//if (typeof config.target != 'jQuery')
-      					//config.target = $(config.target);
+      				if (typeof config.target != 'jQuery')
+      					config.target = $(config.target);
 
       		// Panel.
 
@@ -258,15 +258,7 @@
 
       							}
 
-      							if (result) {
-
-      								$this.touchPosX = null;
-      								$this.touchPosY = null;
-      								$this._hide();
-
-      								return false;
-
-      							}
+      							$this._hide();
 
       						}
 

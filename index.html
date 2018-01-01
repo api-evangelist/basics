@@ -2,47 +2,44 @@
 layout: default
 title: API Life Cycle Basics
 ---
-<table border="1">
-  <tr>
-    <td valign="top" width="35%">
-      <h2>API Lifecycle Basics</h2>
-      <p>This is one of my lessons on the basics of an API life cycle, walking through some of the common elements API providers should be considering as they work standardize how they deliver APIs across organizations.</p>
-      <p>The home page of this interactive project is a subway map which provides a single "line", which walks through the basics of my proposed API life cycle. You can click on any stop below, or <a href="/lifecycle/definitions/">just begin by clicking on definitions</a>.</p>
-      <p>This project runs using Jekyll, which is completely hosting using Github Pages. You can access the Github repository for the project, and find the lifecycle details stored within the underscore lifecycle collection. I am just using Jekyll as a hypermedia client to walk through each stop along the life cycle, with the subway map as a visual aid.</p>
-      <p>I have expanding versions of this life cycle with thousands of stops, spanning over a hundreds lines, providing a wealth of detail that can be applied to the API life cycle, depending on the goal of an organization. If you are interested in producing a subway map for your API operations, or would like an API governance strategy laid out in this way, let me know.
-    </td>
-    <td valign="top">
-      <div id="subway-map" style="margin-left: 50px; height: 850px;" class="subway-map" data-columns="20" data-rows="100" data-cellSize="40" data-legendId="legend" data-textClass="text" data-gridNumbers="true" data-grid="false" data-lineWidth="15">
 
-          <ul id="r-1" data-color="#27AE60" data-label="API Lifecycle">
-              <li id="r-1-s-1" data-coords="5,1" data-marker="interchange" data-labelPos="E"><a href="/lifecycle/definitions/" title="Definitions">Definitions</a></li>
-              <li id="r-1-s-2" data-coords="5,2" data-labelPos="W"><a href="/lifecycle/design/" title="Design">Design</a></li>
-              <li id="r-1-s-2" data-coords="5,3" data-labelPos="E"><a href="/lifecycle/mock/" title="Mock">Mock</a></li>
-              <li id="r-1-s-2" data-coords="5,4" data-labelPos="W"><a href="/lifecycle/database/" title="Database">Database</a></li>
-              <li id="r-1-s-2" data-coords="5,5" data-labelPos="E"><a href="/lifecycle/deployment/" title="Deployment">Deployment</a></li>
-              <li id="r-1-s-2" data-coords="5,6" data-labelPos="W"><a href="/lifecycle/gateway/" title="Gateway">Gateway</a></li>
-              <li id="r-1-s-2" data-coords="5,7" data-labelPos="E"><a href="/lifecycle/management/" title="Management">Management</a></li>
-              <li id="r-1-s-2" data-coords="5,8" data-labelPos="W"><a href="/lifecycle/logging/" title="Logging">Logging</a></li>
-              <li id="r-1-s-2" data-coords="5,9" data-labelPos="E"><a href="/lifecycle/dns/" title="DNS">DNS</a></li>
-              <li id="r-1-s-2" data-coords="5,10" data-labelPos="W"><a href="/lifecycle/portal/" title="Portal">Portal</a></li>
-              <li id="r-1-s-2" data-coords="5,11" data-labelPos="E"><a href="/lifecycle/documentation/" title="Documentation">Documentation</a></li>
-              <li id="r-1-s-2" data-coords="5,12" data-labelPos="W"><a href="/lifecycle/clients/" title="Clients">Clients</a></li>
-              <li id="r-1-s-2" data-coords="5,13" data-labelPos="E"><a href="/lifecycle/sdk/" title="SDK">SDK</a></li>
-              <li id="r-1-s-2" data-coords="5,14" data-labelPos="W"><a href="/lifecycle/cli/" title="CLI">CLI</a></li>
-              <li id="r-1-s-2" data-coords="5,15" data-labelPos="E"><a href="/lifecycle/testing/" title="Testing">Testing</a></li>
-              <li id="r-1-s-2" data-coords="5,16" data-labelPos="W"><a href="/lifecycle/security/" title="Security">Security</a></li>
-              <li id="r-1-s-2" data-coords="5,17" data-labelPos="E"><a href="/lifecycle/communications/" title="Communication">Communication</a></li>
-              <li id="r-1-s-2" data-coords="5,18" data-labelPos="W"><a href="/lifecycle/support/" title="Support">Support</a></li>
-              <li id="r-1-s-2" data-coords="5,19" data-labelPos="E"><a href="/lifecycle/training/" title="Training">Training</a></li>
-              <li id="r-1-s-2" data-coords="5,20" data-marker="interchange"><a href="/lifecycle/deprecation/" title="Deployment">Deprecation</a></li>
-          </ul>
+<h2>API Lifecycle Basics</h2>
+<p>This is one of my lessons on the basics of an API life cycle, walking through some of the common elements API providers should be considering as they work standardize how they deliver APIs across organizations.</p>
+<p>The home page of this interactive project is a subway map which provides a single "line", which walks through the basics of my proposed API life cycle. You can click on any stop below, or <a href="/lifecycle/definitions/">just begin by clicking on definitions</a>.</p>
 
-      </div>
-      <script type="text/javascript">
-          var editor = [];
-          $(".subway-map").subwayMap({ });
-      </script>
-    </td>
-  </tr>
-</table>
 <div id="legend" style="display: none;"></div>
+<div id="subway-map" style="margin-left: 75px; height: 850px;" class="subway-map" data-columns="20" data-rows="100" data-cellSize="40" data-legendId="legend" data-textClass="text" data-gridNumbers="true" data-grid="false" data-lineWidth="15">
+
+    <ul id="r-1" data-color="#27AE60" data-label="API Lifecycle">
+        <li id="r-1-s-1" data-coords="5,1" data-marker="interchange" data-labelPos="E"><a href="/lifecycle/definitions/" title="Definitions">Definitions</a></li>
+        <li id="r-1-s-2" data-coords="5,2" data-labelPos="W"><a href="/lifecycle/design/" title="Design">Design</a></li>
+        <li id="r-1-s-2" data-coords="5,3" data-labelPos="E"><a href="/lifecycle/mock/" title="Mock">Mock</a></li>
+        <li id="r-1-s-2" data-coords="5,4" data-labelPos="W"><a href="/lifecycle/database/" title="Database">Database</a></li>
+        <li id="r-1-s-2" data-coords="5,5" data-labelPos="E"><a href="/lifecycle/deployment/" title="Deployment">Deployment</a></li>
+        <li id="r-1-s-2" data-coords="5,6" data-labelPos="W"><a href="/lifecycle/gateway/" title="Gateway">Gateway</a></li>
+        <li id="r-1-s-2" data-coords="5,7" data-labelPos="E"><a href="/lifecycle/management/" title="Management">Management</a></li>
+        <li id="r-1-s-2" data-coords="5,8" data-labelPos="W"><a href="/lifecycle/logging/" title="Logging">Logging</a></li>
+        <li id="r-1-s-2" data-coords="5,9" data-labelPos="E"><a href="/lifecycle/dns/" title="DNS">DNS</a></li>
+        <li id="r-1-s-2" data-coords="5,10" data-labelPos="W"><a href="/lifecycle/portal/" title="Portal">Portal</a></li>
+        <li id="r-1-s-2" data-coords="5,11" data-labelPos="E"><a href="/lifecycle/documentation/" title="Documentation">Documentation</a></li>
+        <li id="r-1-s-2" data-coords="5,12" data-labelPos="W"><a href="/lifecycle/clients/" title="Clients">Clients</a></li>
+        <li id="r-1-s-2" data-coords="5,13" data-labelPos="E"><a href="/lifecycle/sdk/" title="SDK">SDK</a></li>
+        <li id="r-1-s-2" data-coords="5,14" data-labelPos="W"><a href="/lifecycle/cli/" title="CLI">CLI</a></li>
+        <li id="r-1-s-2" data-coords="5,15" data-labelPos="E"><a href="/lifecycle/testing/" title="Testing">Testing</a></li>
+        <li id="r-1-s-2" data-coords="5,16" data-labelPos="W"><a href="/lifecycle/security/" title="Security">Security</a></li>
+        <li id="r-1-s-2" data-coords="5,17" data-labelPos="E"><a href="/lifecycle/communications/" title="Communication">Communication</a></li>
+        <li id="r-1-s-2" data-coords="5,18" data-labelPos="W"><a href="/lifecycle/support/" title="Support">Support</a></li>
+        <li id="r-1-s-2" data-coords="5,19" data-labelPos="E"><a href="/lifecycle/training/" title="Training">Training</a></li>
+        <li id="r-1-s-2" data-coords="5,20" data-marker="interchange"><a href="/lifecycle/deprecation/" title="Deployment">Deprecation</a></li>
+    </ul>
+
+</div>
+<script type="text/javascript">
+    $( "#sidebar" ).click(function() {    });
+
+    var editor = [];
+    $(".subway-map").subwayMap({ });
+
+</script>
+<p>This project runs using Jekyll, which is completely hosting using Github Pages. You can access the Github repository for the project, and find the lifecycle details stored within the underscore lifecycle collection. I am just using Jekyll as a hypermedia client to walk through each stop along the life cycle, with the subway map as a visual aid.</p>
+<p>I have expanding versions of this life cycle with thousands of stops, spanning over a hundreds lines, providing a wealth of detail that can be applied to the API life cycle, depending on the goal of an organization. If you are interested in producing a subway map for your API operations, or would like an API governance strategy laid out in this way, let me know.

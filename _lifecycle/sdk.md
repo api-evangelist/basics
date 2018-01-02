@@ -18,8 +18,7 @@ properties:
       description: The leading service for generating SDKs from OpenAPI, and including as part of existing CI/CD efforts.
     - title: RESTUnited
       url:https://restunited.com/
-      description: The easiest way to generate SDKs (REST API libraries) in
-      PHP, Python, Ruby, ActionScript (Flash), C#, Android, Objective-C, Scala, and Java.
+      description: The easiest way to generate SDKs (REST API libraries) in PHP, Python, Ruby, ActionScript (Flash), C#, Android, Objective-C, Scala, and Java.
   color: 27AE60    
 links:
   - rel:

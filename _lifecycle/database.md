@@ -25,7 +25,7 @@ properties:
     - title: NodeAPI
       url: https://github.com/ealeksandrov/NodeAPI
       description: Simple RESTful API implementation on Node.js + MongoDB.
-    - title: PHP CRUID API
+    - title: PHP CRUD API
       url: https://github.com/mevdschee/php-crud-api
       description: Single file PHP script that adds a REST API to a SQL database
     - title: Google Cloud Spanner

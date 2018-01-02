@@ -22,7 +22,6 @@ properties:
     - title: ReadMe.io
       url: https://readme.io/
       description: ReadMe is a developer hub for your startup or code. It's a completely customizable and collaborative place for documentation, support, key generation and more.
-      - [OpenAPI Specification Visual
     - title: OpenAPI Specification Visual Documentation
       url: http://openapi-specification-visual-documentation.apihandyman.io/
       description: Thinking about how documentation can become visualized, not just text and data.      

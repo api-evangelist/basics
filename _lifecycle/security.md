@@ -29,5 +29,5 @@ links:
     href: /lifecycle/testing/   
   - rel:
       - next
-    href: /lifecycle/communications/            
+    href: /lifecycle/communication/            
 ---

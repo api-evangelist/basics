@@ -29,7 +29,7 @@ links:
     href: /lifecycle/support/
   - rel:
       - previous
-    href: /lifecycle/communications/   
+    href: /lifecycle/communication/   
   - rel:
       - next
     href: /lifecycle/training/            

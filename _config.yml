@@ -3,8 +3,7 @@ url:          http://basics.apievangelist.com/
 raw_url: https://api-evangelist-data.github.io/names/apis/
 
 tag: Names
-
-logo:         https://kinlane-productions.s3.amazonaws.com/api-evangelist/api-evangelist-logo-400.png
+logo:         https://kinlane-productions2.s3.amazonaws.com/api-evangelist/api-evangelist-logo-400.png
 logo_width:   80
 logo_bottom_padding: 10
 
@@ -27,7 +26,7 @@ github_branch: master
 # Footer
 footer_title: API Evangelist
 footer_link: http://apievangelist.com
-footer_image_source: https://s3.amazonaws.com/kinlane-productions/footer/empowered-by-you-banner.png
+footer_image_source: https://kinlane-productions2.s3.amazonaws.com/footer/empowered-by-you-banner.png
 footer_image_width: 60
 
 collections:
